@@ -6,3 +6,4 @@ s.find('other') -- searches for the given other string (not a regular expression
 s.replace('old', 'new') -- returns a string where all occurrences of 'old' have been replaced by 'new'
 s.split('delim') -- returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it's just text. 'aaa,bbb,ccc'.split(',') -> ['aaa', 'bbb', 'ccc']. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.
 s.join(list) -- opposite of split(), joins the elements in the given list together using the string as the delimiter. e.g. '---'.join(['aaa', 'bbb', 'ccc']) -> aaa---bbb---ccc
+(%d int, %s string, %f/%g floating point)
