@@ -1,0 +1,4 @@
+CRC
+M(x) = 110111001000010 mesajul sa inceapa cu 1
+C(x) = x^3+x+1 -> 1011 -> gradul(C) = 3 < grad(M)
+T(x) = 110111001000010 concatenand un numar de 0 egal cu gradul lui M => T(x) = 110111001000010000
