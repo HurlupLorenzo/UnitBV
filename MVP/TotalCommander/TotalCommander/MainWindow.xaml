@@ -67,8 +67,8 @@
         </ListView>
         <TextBox HorizontalAlignment="Left" Height="21" Margin="84,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" />
         <TextBox HorizontalAlignment="Left" Height="21" Margin="84,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" Grid.Column="1"/>
-        <ComboBox HorizontalAlignment="Left" Height="21" Margin="0,25,0,0" VerticalAlignment="Top" Width="79" />
-        <ComboBox HorizontalAlignment="Left" Height="21" Margin="0,25,0,0" VerticalAlignment="Top" Width="79" Grid.Column="1" />
+        <ComboBox HorizontalAlignment="Left" Height="21" Margin="0,25,0,0" VerticalAlignment="Top" Width="79" SelectionChanged="ComboBox_SelectionChanged"/>
+        <ComboBox HorizontalAlignment="Left" Height="21" Margin="0,25,0,0" VerticalAlignment="Top" Width="79" SelectionChanged="ComboBox_SelectionChanged_1" Grid.Column="1" />
         <Button FontWeight="Bold" Background="WhiteSmoke" Content="F3 View" Margin="0,382,276,9.6"></Button>
         <Button FontWeight="Bold" Background="WhiteSmoke" Content="F4 Edit" Margin="337,382,333,9.6" Grid.ColumnSpan="2"></Button>
         <Button FontWeight="Bold" Background="WhiteSmoke" Content="F5 Copy" Margin="223,382,45,9.6"></Button>
