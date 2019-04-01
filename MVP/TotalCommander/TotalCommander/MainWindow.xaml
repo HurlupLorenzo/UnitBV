@@ -1,0 +1,81 @@
+﻿<Window x:Class="TotalCommander.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TotalCommander"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid Margin="0,0,-0.4,-3.6" Name="MainGrid" Background="#FFF">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="67*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Grid.ColumnSpan="2" Margin="0,0,0.4,-0.4">
+            <Menu DockPanel.Dock="Top" Height="25">
+                <MenuItem Header="_File" Height="25" Width="35">
+                    <MenuItem Header="_Pack" />
+                    <MenuItem Header="_Unpack" />
+                    <MenuItem Header="_Compare by content" />
+                    <Separator />
+                    <MenuItem Header="_Exit" />
+                </MenuItem>
+                <MenuItem Header="_Show" Height="25" Width="46">
+                    <MenuItem Header="_Full" />
+                    <MenuItem Header="_Tree" />
+                    <MenuItem Header="_Vertical Arrangement" />
+                    <MenuItem Header="_New Tab" />
+                </MenuItem>
+                <MenuItem Header="_Help" Height="25" Width="46">
+                    <MenuItem Header="_About" />
+                </MenuItem>
+            </Menu>
+            <TextBox AcceptsReturn="True" />
+        </DockPanel>
+        <ListView  
+                  HorizontalAlignment="Left" 
+                  Height="323" Margin="0,54,0,0" 
+                  VerticalAlignment="Top" Width="390" 
+                  MouseDoubleClick="OpenDirectory"
+                GotFocus="listView_GotFocus" Background="#FFE3F8FF">
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Type" Width="50" DisplayMemberBinding="{Binding Type}" />
+                    <GridViewColumn Header="Creation date" Width="140" DisplayMemberBinding="{Binding CreationDate}" />
+                    <GridViewColumn Header="Size" Width="83" DisplayMemberBinding="{Binding Size}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView 
+                  HorizontalAlignment="Left" 
+                  Height="323" Margin="0,54,0,0" 
+                  VerticalAlignment="Top" Width="402" 
+                  MouseDoubleClick="OpenDirectory"
+                GotFocus="listView_GotFocus" Background="#FFE3F8FF" Grid.Column="1">
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Type" Width="50" DisplayMemberBinding="{Binding Type}" />
+                    <GridViewColumn Header="Creation date" Width="140" DisplayMemberBinding="{Binding CreationDate}" />
+                    <GridViewColumn Header="Size" Width="83" DisplayMemberBinding="{Binding Size}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="84,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" />
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="84,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="296" Grid.Column="1"/>
+        <ComboBox HorizontalAlignment="Left" Height="21" Margin="0,25,0,0" VerticalAlignment="Top" Width="79" />
+        <ComboBox HorizontalAlignment="Left" Height="21" Margin="0,25,0,0" VerticalAlignment="Top" Width="79" Grid.Column="1" />
+        <Button FontWeight="Bold" Background="WhiteSmoke" Content="F3 View" Margin="0,382,276,9.6"></Button>
+        <Button FontWeight="Bold" Background="WhiteSmoke" Content="F4 Edit" Margin="337,382,333,9.6" Grid.ColumnSpan="2"></Button>
+        <Button FontWeight="Bold" Background="WhiteSmoke" Content="F5 Copy" Margin="223,382,45,9.6"></Button>
+        <Button FontWeight="Bold" Background="WhiteSmoke" Content="F6 Move" Margin="109,382,158,9.6"></Button>
+        <Button FontWeight="Bold" Background="WhiteSmoke" Content="F7 New Folder" Margin="175,382,113,9.6" Grid.Column="1"></Button>
+        <Button FontWeight="Bold" Background="WhiteSmoke" Content="F8 Delete" Margin="61,382,218,9.6" Grid.Column="1"></Button>
+        <Button FontWeight="Bold" Background="WhiteSmoke" Click="CloseButton_Click" Content="Alt + F4 Exit" Margin="283,382,0,9.6" Grid.Column="1"></Button>
+    </Grid>
+
+</Window>

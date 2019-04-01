@@ -1,0 +1,32 @@
+﻿<Window x:Class="WpfApp1Lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1Lab1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock TextWrapping="WrapWithOverflow" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="50" Margin="211,142,178,147" Width="403" Height="130">
+            Taste the rainbow! 
+            Feel the rainbow!
+        </TextBlock>
+        <Button VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="40" Margin="10,10,0,0" Click="Button_Click">
+            <Button.FontWeight>Bold</Button.FontWeight>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Background="Red">R</TextBlock>
+                    <TextBlock Background="Orange">O</TextBlock>
+                    <TextBlock Background="Yellow">Y</TextBlock>
+                    <TextBlock Background="LightGreen">G</TextBlock>
+                    <TextBlock Background="Green">G</TextBlock>
+                    <TextBlock Background="LightBlue">B</TextBlock>
+                    <TextBlock Background="Blue">B</TextBlock>
+                    <TextBlock Background="DarkBlue">B</TextBlock>
+
+
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+</Window>

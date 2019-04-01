@@ -1,0 +1,15 @@
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\bin\Debug\WpfApp1Lab1.exe.config
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\bin\Debug\WpfApp1Lab1.exe
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\bin\Debug\WpfApp1Lab1.pdb
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.csprojAssemblyReference.cache
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\MainWindow.g.cs
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\App.g.cs
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1_MarkupCompile.cache
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1_MarkupCompile.lref
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\MainWindow.baml
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.g.resources
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.Properties.Resources.resources
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.csproj.GenerateResource.cache
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.csproj.CoreCompileInputs.cache
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.exe
+D:\UnitBv\Anul 2,Sem ll\MVP\WpfApp1Lab1\WpfApp1Lab1\obj\Debug\WpfApp1Lab1.pdb
