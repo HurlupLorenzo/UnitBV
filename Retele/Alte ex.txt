@@ -1,0 +1,5 @@
+194.195.196.198
+255.255.255.240
+a.sa se determine adresa retelei , adresa subretelei si a cata gazda este in subreteaua respectiva.Adresa de broadcast pe subretea
+b.numarul maxim de gazde din fiecare subretea,nr de subretele care se pot obtine si numarul total de gazde din retea(de pe toate subretelele)
+c.adresele fiecarei subretele si adresele de broadcast pentru fiecare sub retea
