@@ -1,0 +1,6 @@
+a.Care este clasa adresei?Cate gazde se pot afla in aceasta retea(fara sub retele) si ce fel de adresa este?		11.12.13.14
+b.Care este adresa retelei si care este adresa de broadcast?
+c.Care este numarul minim de biti ce trebuie imprumutati astfel incat sa se creeze ce lputin 64 de subretele ,iar fiecare retea 500 gazde.
+d.Care este adresa celei de-a doua sub retele
+e.adresa de broadcast a ultimei sub retele
+f.cati biti trebuie imprumutati a.i in fiecare sub retea sa fie intre 10 si 62 de gazde
